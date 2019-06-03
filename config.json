@@ -1,0 +1,27 @@
+{
+	"server": {
+		"port": 2333,
+		"address": "127.0.0.1"
+	},
+	"musiclink": {
+		"server": {
+			"password": "youshallnotpassWORD",
+			"ws": {
+				"port": 90,
+				"host": "127.0.0.1"
+			},
+			"sources": {
+				"youtube": true,
+				"bandcamp": true,
+				"soundcloud": true,
+				"twitch": true,
+				"vimeo": true,
+				"mixer": true,
+				"http": true,
+				"dlive": true,
+				"local": false
+			},
+			"bufferDurationMS": 4000
+		}
+	}
+}

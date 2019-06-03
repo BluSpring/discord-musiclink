@@ -1,0 +1,48 @@
+{
+  "name": "discord-musiclink",
+  "version": "0.1.0",
+  "description": "A musicbot link based on Frederikam's Lavalink.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BluSpring/discord-musiclink.git"
+  },
+  "keywords": [
+    "musicbot",
+    "discord",
+    "music",
+    "lavalink"
+  ],
+  "author": "BluSpring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BluSpring/discord-musiclink/issues"
+  },
+  "homepage": "https://github.com/BluSpring/discord-musiclink#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "discord.js": "11.4.2",
+    "eris": "^0.9.0",
+    "express": "^4.16.4",
+    "ffmpeg": "0.0.4",
+    "htmlparser2": "^3.10.1",
+    "jsonp": "^0.2.1",
+    "libsodium-wrappers": "^0.7.4",
+    "lodash": "^4.17.11",
+    "m3u8": "0.0.8",
+    "m3u8stream": "^0.6.2",
+    "node-opus": "^0.3.1",
+    "node-soundcloud": "0.0.6",
+    "opusscript": "0.0.6",
+    "prism-media": "^1.0.2",
+    "sodium-native": "^2.4.2",
+    "stream": "0.0.2",
+    "tweetnacl": "^1.0.1",
+    "ws": "^6.2.1",
+    "ytdl-core": "^0.25.2"
+  }
+}
