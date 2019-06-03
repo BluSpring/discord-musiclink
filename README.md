@@ -89,6 +89,7 @@ So, you should connect to MusicLink's WebSocket once the bot is ready. When you 
  - The base64 track<br>
  - The voice channel ID of the server (note that this is different from the actual ID)
 <br><br>
+
 # Streaming Types
 [Twitch](https://twitch.tv)<br>
 [YouTube](https://youtube.com)<br>
@@ -96,10 +97,12 @@ So, you should connect to MusicLink's WebSocket once the bot is ready. When you 
 
 Support for Bandcamp, Vimeo, Mixer, DLive, local and other HTTP sources will be added soon.
 <br>
+
 # Search types
-`ytsearch:Search query` - YouTube search
+`ytsearch:Search query` - YouTube search<br>
 `scsearch:Search query` - Soundcloud search
 <br>
+
 # Notes
 Deactivating sources does NOT work at the moment, and neither does the buffer duration. Will be added soon.
 <br>
