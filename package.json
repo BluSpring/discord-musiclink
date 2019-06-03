@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/BluSpring/discord-musiclink#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "chalk": "^2.4.2",
     "discord.js": "11.4.2",
     "eris": "^0.9.0",
