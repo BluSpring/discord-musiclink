@@ -79,7 +79,7 @@ bot.on('ready', () => {
 .login("bot token here");
 ```
 <br>
-So, you should connect to MusicLink's WebSocket once the bot is ready. When you want to play a song, get the /loadtracks endpoint with the identifier header being the song URL or search. After receiving the base64 track, use your bot's Discord WebSocket to connect to the voice channel, and have the voiceServerUpdate event be the one sending this info to the MusicLink WebSocket:<br>
+So, you should connect to MusicLink's WebSocket once the bot is ready. When you want to play a song, get the /loadtracks endpoint with the identifier header being the song URL or search. After receiving the base64 track, use your bot's Discord WebSocket to connect to the voice channel, and have the voiceServerUpdate event be the one sending this info to the MusicLink WebSocket:
  - The server ID given by the event (note that this is different from the server ID you get in Developer Mode)<br>
  - The token given by the event<br>
  - The "play" opcode<br>
@@ -104,7 +104,7 @@ Support for Bandcamp, Vimeo, Mixer, DLive, local and other HTTP sources will be 
 Deactivating sources does NOT work at the moment, and neither does the buffer duration. Will be added soon.
 <br>
 # Modules used & Special Thanks
-Modules: 
+**Modules**: 
  - [axios](https://github.com/axios/axios) (For requests)<br>
  - [Eris](https://github.com/abalabahaha/eris) (For voice, wanted to use discord.js, but Eris was more friendly towards 3rd party usage)<br>
  - [htmlparser2](https://npmjs.com/package/htmlparser2) (To parse HTML for searches. Really handy.)<br>
@@ -114,12 +114,12 @@ Modules:
  - [m3u8stream](https://npmjs.com/package/m3u8stream) (Ditto)<br>
  - [ws](https://npmjs.com/package/ws) (Absolutely amazing WebSocket server.)
 <br><br>
-Special Thanks:
+**Special Thanks**:
  - [Frederikam](https://frederikam.com/) - For Lavalink.<br>
  - [abalabahaha](https://abal.moe) - For making Eris have its voice class be able to be used outside of the module.<br>
  - [Discord](https://discordapp.com) - For their wonderful service.<br>
  - [Dragons99990](https://youtube.com/dragons99990) - For keeping me company while making this.<br>
  - And all the module creators along with the NodeJS guys.
 <br><br>
-And no thanks to:
+**And no thanks to**:
  - [CosmicOsmium](https://nishidev.com) - Cuz fuck that guy.
